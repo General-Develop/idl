@@ -1,0 +1,8 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 2.8) 
+PROJECT(test)
+
+ADD_SUBDIRECTORY(tIdlTimer_unit)
+ADD_SUBDIRECTORY(tIdlDatetime_unit)
+ADD_SUBDIRECTORY(tIdlSmartPtr_unit)
+ADD_SUBDIRECTORY(tIdlIntrusivePtr_unit)
+ADD_SUBDIRECTORY(tIdlThread_unit)
