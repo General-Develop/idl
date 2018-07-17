@@ -3,9 +3,6 @@
 @set IDL_ROOT=%~dp0..
 @set IDL_TMP=%IDL_ROOT%\tmp
 
-@set BOOST_ROOT=P:\workplace\code\boost_1_67_0
-@set BOOST_LIB_VERSION=1_67
-
 call "%VS90COMNTOOLS%\..\..\VC\vcvarsall.bat" x86
 
 path=%UNM_ROOT%\..\Build\srctools\win32_vc9_x86\cmake;%path%
